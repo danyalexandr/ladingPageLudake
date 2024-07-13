@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludake graphics - Landing Page</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/maybelogo.jpg" alt="Logo">
+                <p>Ludake graphics</p>
+            </div>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#" id="contacto-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="banner">
+            <img src="./assets/ico.jpg" alt="Banner de la marca">
+            <div class="overlay">
+                <h1>Bienvenido a Ludake graphics</h1>
+                <p>Descubre nuestros productos</p>
+            </div>
+        </section>
+
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="carousel">
+                <div class="carousel-container">
+                    <!-- Los productos se insertarán aquí dinámicamente -->
+                </div>
+                <button class="carousel-button prev">&lt;</button>
+                <button class="carousel-button next">&gt;</button>
+            </div>
+            <a href="#" id="solicitar-info" class="whatsapp-button">Solicitar Información</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ludake graphics. Todos los derechos reservados.</p>
+    </footer>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2>Solicitar Información</h2>
+            <form id="contact-form">
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+                <input type="hidden" name="producto" id="producto-seleccionado">
+                <button type="submit">Enviar</button>
+            </form>
+            <button id="cerrar-popup">Cerrar</button>
+        </div>
+    </div>
+    <div id="contacto-popup" class="popup">
+        <div class="popup-content">
+            <h2>Contacto</h2>
+            <p>Email: ludakegraphics@gmail.com</p>
+            <p>WhatsApp: +584142787453</p>
+            <p>Instagram: @ludakegraphics</p>
+            <button id="cerrar-contacto-popup">Cerrar</button>
+        </div>
+    </div>
+
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
