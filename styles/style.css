@@ -262,22 +262,6 @@ footer {
     }
 }
 
-#solicitar-info {
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
-    font-size: 1rem;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-#solicitar-info:hover {
-    background-color: #555;
-}
-
 .producto h3 {
     margin-top: 10px;
 }
