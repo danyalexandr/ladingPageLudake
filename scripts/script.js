@@ -15,7 +15,7 @@ let currentIndex = 0;
 
 function generarEnlaceWhatsApp(producto) {
     const numeroWhatsApp = "5491126322496"; // Asegúrate de que este sea el formato correcto
-    const mensaje = encodeURIComponent(`Hola, me gustaría obtener más información sobre ${producto}.`);
+    const mensaje = encodeURIComponent(`Hola, me gustaría obtener más información sobre sus productos!.`);
     return `https://wa.me/${numeroWhatsApp}?text=${mensaje}`;
 }
 
