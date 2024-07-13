@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="icon" type="image/jpg" href="./assets/ico.jpg">
     <title>Ludake graphics - Landing Page</title>
     <link rel="stylesheet" href="./styles/style.css">
@@ -21,7 +22,6 @@
             </ul>
         </nav>
     </header>
-
     <main>
         <section id="banner">
             <img src="./assets/ico.jpg" alt="Banner de la marca">
@@ -40,37 +40,30 @@
                 <button class="carousel-button prev">&lt;</button>
                 <button class="carousel-button next">&gt;</button>
             </div>
-            <a href="#" id="solicitar-info" class="whatsapp-button">Solicitar Información</a>
-        </section>
+            <a href="#" id="solicitar-info" class="whatsapp-button"><i class="fa-brands fa-whatsapp"></i> Solicitar Información</a>
+       </section>
     </main>
-
-    <footer>
-        <p>&copy; 2024 Ludake graphics. Todos los derechos reservados.</p>
-    </footer>
-
-    <div id="popup" class="popup">
-        <div class="popup-content">
-            <h2>Solicitar Información</h2>
-            <form id="contact-form">
-                <input type="text" name="nombre" placeholder="Nombre" required>
-                <input type="email" name="email" placeholder="Email" required>
-                <textarea name="mensaje" placeholder="Mensaje" required></textarea>
-                <input type="hidden" name="producto" id="producto-seleccionado">
-                <button type="submit">Enviar</button>
-            </form>
-            <button id="cerrar-popup">Cerrar</button>
-        </div>
-    </div>
     <div id="contacto-popup" class="popup">
         <div class="popup-content">
             <h2>Contacto</h2>
-            <p>Email: ludakegraphics@gmail.com</p>
-            <p>WhatsApp: +584142787453</p>
-            <p>Instagram: @ludakegraphics</p>
+            <p>
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:ludakegraphics@gmail.com">Email: ludakegraphics@gmail.com</a>
+            </p>
+            <p>
+                <i class="fab fa-whatsapp"></i>
+                <a href="https://wa.me/584142787453" target="_blank">WhatsApp: +584142787453</a>
+            </p>
+            <p>
+                <i class="fab fa-instagram"></i>
+                <a href="https://www.instagram.com/ludakegraphics" target="_blank">Instagram: @ludakegraphics</a>
+            </p>
             <button id="cerrar-contacto-popup">Cerrar</button>
         </div>
     </div>
-
+    <footer>
+        <p>&copy; 2024 Ludake graphics. Todos los derechos reservados.</p>
+    </footer>
     <script src="./scripts/script.js"></script>
 </body>
 </html>

@@ -169,6 +169,26 @@ footer {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.popup-content p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.popup-content i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.popup-content a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.popup-content a:hover {
+    text-decoration: underline;
+}
+
 .popup-content {
     background-color: #fff;
     max-width: 500px;
